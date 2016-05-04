@@ -1,6 +1,6 @@
 # Extend vert.x image
 FROM vertx/vertx3
-
+#
 #                                                       
 ENV VERTICLE_NAME com.cisco.training.cmad.verticles.BootStrapVerticle
 ENV VERTICLE_FILE target/cmadBlog-1.0.0-SNAPSHOT.jar
